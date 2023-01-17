@@ -6,5 +6,15 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 1.5; /* 30/20 */
+  font-weight: 400;
   color: var(--main-grey-color);
+}
+h1,
+h2 {
+    color: var(--title-black-color);
+}
+h3 {
+    color: var(--secondary-black-color);
 }
