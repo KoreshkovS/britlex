@@ -13,8 +13,188 @@ body {
 }
 h1,
 h2 {
-    color: var(--title-black-color);
+  color: var(--title-black-color);
+}
+h2 {
+  font-weight: 600;
+  font-size: 48px;
 }
 h3 {
-    color: var(--secondary-black-color);
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--secondary-black-color);
+  text-transform: capitalize;
+}
+.logo {
+  font-size: 36px;
+  color: #939393;
+  transition: color 0.8s ease 0s;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--title-black-color);
+}
+.logo span {
+  color: var(--title-black-color);
+}
+.container {
+  max-width: 1337px;
+}
+.button {
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #263238;
+  border-radius: 10px;
+  padding: 15px 50px;
+  transition: background-color 0.8s ease 0s;
+}
+.button:hover,
+.button:focus {
+  background-color: #445963;
+}
+
+/* header  */
+.nav-list {
+}
+.nav-item {
+}
+.nav-item-link {
+  font-weight: 500;
+  color: var(--secondary-black-color);
+  transition: color 0.8s ease 0s;
+}
+.nav-item-link:hover,
+.nav-item-link:focus {
+  color: var(--main-grey-color);
+}
+.current-page {
+  color: var(--main-grey-color);
+}
+.header-button {
+  border: 2px solid var(--secondary-black-color);
+  color: var(--title-black-color);
+  background-color: #e5e5e5;
+  transition: background-color 0.8s ease 0s;
+}
+.header-button:hover,
+.header-button:focus {
+  background-color: var(--secondary-black-color);
+  color: var(--main-grey-color);
+}
+/* main  */
+
+/* hero section  */
+
+.hero {
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.33; /* 80/60 */
+}
+.hero-title-image {
+}
+.hero-text {
+  font-size: 24px;
+}
+.hero-button {
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+}
+.hero-image {
+}
+
+/* skills section  */
+.skills {
+}
+.skills-title {
+}
+.skills-card {
+}
+.skills-card-image {
+}
+.skills-card-title {
+}
+.skills-card-text {
+  font-size: 16px;
+}
+.skills-card-link {
+}
+
+/* about section  */
+.about {
+}
+.about-title {
+}
+.about-text {
+  line-height: 1.8; /* 36/20 */
+}
+.about-list {
+}
+.about-item {
+}
+.about-item-quantity {
+  font-weight: 600;
+  font-size: 48px;
+  color: var(--secondary-black-color);
+}
+.about-item-text {
+}
+.about-image {
+}
+
+/* pricing section  */
+.pricing {
+}
+.pricing-title {
+}
+.pricing-list {
+}
+.pricing-item {
+}
+.pricing-item-image {
+}
+.pricing-list-title {
+  line-height: 1.6; /* 48/30 */
+}
+.pricing-item-text {
+}
+.pricing-item-price {
+  font-size: 24px;
+  color: var(--secondary-black-color);
+}
+.pricing-item-period {
+  font-size: 18px;
+  color: #546269;
+}
+
+/* contact section  */
+.contact {
+}
+.contact-image {
+}
+.contact-title {
+}
+.contact-text {
+}
+.contact-input {
+}
+.contact-button {
+  letter-spacing: 0.03em;
+}
+
+/* footer  */
+.footer-list {
+}
+.footer-item {
+}
+.footer-item-link {
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  transition: color 0.8s ease 0s;
+}
+.footer-item-link:hover,
+.footer-item-link:focus {
+  color: var(--secondary-black-color);
 }
