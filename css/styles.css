@@ -1,0 +1,10 @@
+:root {
+  --main-grey-color: #8f95a5;
+  --title-black-color: #000000;
+  --secondary-black-color: #263238;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--main-grey-color);
+}
