@@ -41,6 +41,7 @@ h3 {
   max-width: 1337px;
 }
 .button {
+  display: inline-block;
   font-weight: 500;
   color: #ffffff;
   background-color: #263238;
