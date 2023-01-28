@@ -256,6 +256,8 @@ h3 {
 }
 .pricing-item {
   max-width: 426px;
+  height: 584px;
+  position: relative;
 }
 .pricing-item-image {
   max-width: 100%;
@@ -266,17 +268,21 @@ h3 {
   margin-bottom: 20px;
 }
 .pricing-item-text {
-  margin-bottom: 30px;
+
 }
 .pricing-item-footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 260px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 260px;
   height: 45px;
   background-color: #eeeeee;
   border-radius: 5px;
-  margin-top: auto;
+ 
 }
 .pricing-item-price {
   font-size: 24px;
