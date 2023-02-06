@@ -96,10 +96,10 @@ h3 {
 .nav-item-link:focus {
   color: var(--main-grey-color);
 }
-.current-page {
+.nav-item-link.active {
   color: var(--main-grey-color);
 }
-.header-button {
+.light-button {
   border: 2px solid var(--secondary-black-color);
   color: var(--title-black-color);
   background-color: inherit;
