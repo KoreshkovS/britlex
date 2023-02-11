@@ -189,4 +189,60 @@ h3 {
 .header-button:hover, .header-button:focus {
   background-color: #263238;
   color: #8f95a5;
+}
+
+.hero {
+  margin-bottom: 180px;
+}
+
+.hero__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+}
+
+.hero-content {
+  max-width: 540px;
+}
+
+.hero-title-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  max-width: 390px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.33; /* 80/60 */
+  margin-right: 30px;
+}
+
+.hero-title-image {
+  width: 85px;
+  height: 85px;
+}
+
+.hero-text {
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+.hero-button {
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+}
+
+.hero-image {
+  max-width: 100%;
 }/*# sourceMappingURL=main.css.map */
