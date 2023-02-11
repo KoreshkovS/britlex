@@ -367,4 +367,70 @@ h3 {
 
 .about-image {
   max-width: 100%;
+}
+
+.pricing {
+  margin-bottom: 180px;
+}
+
+.pricing-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.pricing-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.pricing-item {
+  max-width: 426px;
+  height: 584px;
+  position: relative;
+}
+
+.pricing-item-image {
+  max-width: 100%;
+  margin-bottom: 31px;
+}
+
+.pricing-list-title {
+  line-height: 1.6; /* 48/30 */
+  margin-bottom: 20px;
+}
+
+.pricing-item-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  width: 260px;
+  height: 45px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+
+.pricing-item-price {
+  font-size: 24px;
+  color: #263238;
+  margin-right: 28px;
+}
+
+.pricing-item-period {
+  font-size: 18px;
+  color: #546269;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,47 @@
+.pricing {
+  margin-bottom: 180px;
+}
+.pricing-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.pricing-list {
+  display: flex;
+  column-gap: 30px;
+}
+.pricing-item {
+  max-width: 426px;
+  height: 584px;
+  position: relative;
+}
+.pricing-item-image {
+  max-width: 100%;
+  margin-bottom: 31px;
+}
+.pricing-list-title {
+  line-height: 1.6; /* 48/30 */
+  margin-bottom: 20px;
+}
+
+.pricing-item-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 260px;
+  height: 45px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+.pricing-item-price {
+  font-size: 24px;
+  color: $secondaryBlackColor;
+  margin-right: 28px;
+}
+.pricing-item-period {
+  font-size: 18px;
+  color: #546269;
+}
