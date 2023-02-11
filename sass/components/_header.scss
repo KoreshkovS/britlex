@@ -22,6 +22,8 @@
 .nav-list {
   display: flex;
   align-items: center;
+}
+.nav-item {
   &:not(:last-child) {
     margin-right: 50px;
   }
@@ -36,7 +38,7 @@
   &:focus {
     color: $mainGreyColor;
   }
-  .active {
+  &.active {
     color: $mainGreyColor;
   }
 }
@@ -47,7 +49,7 @@
   background-color: inherit;
   transition: background-color 0.8s ease 0s;
 }
-.header-button {
+.light-button {
   &:hover,
   &:focus {
     background-color: $secondaryBlackColor;

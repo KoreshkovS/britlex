@@ -160,7 +160,8 @@ h3 {
       -ms-flex-align: center;
           align-items: center;
 }
-.nav-list:not(:last-child) {
+
+.nav-item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -174,7 +175,7 @@ h3 {
 .nav-item-link:hover, .nav-item-link:focus {
   color: #8f95a5;
 }
-.nav-item-link .active {
+.nav-item-link.active {
   color: #8f95a5;
 }
 
@@ -186,7 +187,7 @@ h3 {
   transition: background-color 0.8s ease 0s;
 }
 
-.header-button:hover, .header-button:focus {
+.light-button:hover, .light-button:focus {
   background-color: #263238;
   color: #8f95a5;
 }
