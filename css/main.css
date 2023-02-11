@@ -475,4 +475,39 @@ h3 {
 
 .contact-button {
   letter-spacing: 0.03em;
+}
+
+.footer {
+  border-top: 1px solid #c4c4c4;
+  padding: 22px 0;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-logo {
+  margin-right: auto;
+}
+
+.footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-item:not(:last-child) {
+  margin-right: 80px;
+}
+
+.footer-item-link {
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  -webkit-transition: color 0.8s ease 0s;
+  transition: color 0.8s ease 0s;
+}
+.footer-item-link:hover, .footer-item-link:focus {
+  color: #263238;
 }/*# sourceMappingURL=main.css.map */

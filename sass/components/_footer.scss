@@ -1,0 +1,27 @@
+.footer {
+  border-top: 1px solid #c4c4c4;
+  padding: 22px 0;
+}
+.footer__container {
+  display: flex;
+}
+.footer-logo {
+  margin-right: auto;
+}
+.footer-list {
+  display: flex;
+}
+.footer-item {
+  &:not(:last-child) {
+    margin-right: 80px;
+  }
+}
+.footer-item-link {
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  transition: color 0.8s ease 0s;
+  &:hover,
+  &:focus {
+    color: $secondaryBlackColor;
+  }
+}
