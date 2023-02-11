@@ -1,0 +1,57 @@
+$mainGreyColor: #8f95a5;
+$titleBlackColor: #000000;
+$secondaryBlackColor: #263238;
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 1.5; /* 30/20 */
+  font-weight: 400;
+  color: $mainGreyColor;
+  padding-top: 140px;
+}
+h1,
+h2 {
+  color: $titleBlackColor;
+}
+h2 {
+  font-weight: 600;
+  font-size: 48px;
+}
+h3 {
+  font-weight: 600;
+  font-size: 30px;
+  color: $secondaryBlackColor;
+  text-transform: capitalize;
+}
+.logo {
+  font-size: 36px;
+  color: #939393;
+  transition: color 0.8s ease 0s;
+  &:hover,
+  &:focus {
+    color: $titleBlackColor;
+  }
+  span {
+    color: $titleBlackColor;
+  }
+}
+
+[class*="__container"] {
+  max-width: 1358px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.button {
+  display: inline-block;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #263238;
+  border-radius: 10px;
+  padding: 15px 50px;
+  transition: background-color 0.8s ease 0s;
+  &:hover,
+  &:focus {
+    background-color: #445963;
+  }
+}
