@@ -314,4 +314,57 @@ h3 {
 .skills-card-text {
   font-size: 16px;
   margin-bottom: 30px;
+}
+
+.about {
+  margin-bottom: 180px;
+}
+
+.about__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.about-title {
+  margin-bottom: 60px;
+}
+
+.about-text {
+  line-height: 1.8; /* 36/20 */
+  margin-bottom: 30px;
+  max-width: 652px;
+}
+
+.about-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-item:not(:last-child) {
+  margin-right: 131px;
+}
+
+.about-item-quantity {
+  text-align: center;
+  font-weight: 600;
+  font-size: 48px;
+  color: #263238;
+  margin-bottom: 6px;
+}
+
+.about-item-text {
+  max-width: 100px;
+  text-align: center;
+}
+
+.about-image {
+  max-width: 100%;
 }/*# sourceMappingURL=main.css.map */
